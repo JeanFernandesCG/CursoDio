@@ -1,4 +1,4 @@
-const nmr = 22;
+const nmr = 0;
 
 const ePAR = nmr % 2 == "0";
 
