@@ -1,7 +1,12 @@
 const nmr = 22;
+const dividoPor = nmr % 5 === 0;
 
-const ePAR = nmr % 2 === 0;
-
-if (ePAR) {
-  console.log("é par essa budega ai");
-} else console.log("lascou é impar");
+if (nmr === 0) {
+  console.log("numero é invalido");
+} else if (dividoPor) {
+  // else if pode ser feito quantas vezes quiser(possibilidade)
+  console.log("é divisivel");
+} else {
+  //else sempre fechara a cadeia de if else
+  console.log("sem chance de divisão");
+}
