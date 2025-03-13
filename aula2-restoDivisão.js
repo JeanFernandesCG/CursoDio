@@ -1,7 +1,6 @@
-const nmr = 27;
-//é uma condição booleana, ou é ou nao é
-const ePAR = nmr % 2 === 0; // o resto da divisão por 2 é comparado com zero para ver se ele é par
-//caso for ele retorna true, caso nao retorna false.
-//parentes na conta serve para a respeitar a ordem dos calculos.
+const nmr = 22;
+
+const ePAR = nmr % 2 == "0"; //é possivel usar 2 '=' para comparar entre tipos
+// usando 3'=' ele ignora tipo e compara direto, ao usar é bom sempre considerar os tipos.
 
 console.log(ePAR);
