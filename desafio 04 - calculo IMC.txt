@@ -1,0 +1,13 @@
+2) o IMC é um criterio da OMS para da uma indicação sobre a condição de peso de uma pessoa adulta.
+
+formula do imc:
+imc= peso / (altura * alturea)
+
+elabore um algoritmo que dado o peso e a altura de um adulto mostre sua condição de acordo com a tabela abaixo:
+
+IMC em adultos condições:
+- abaixo de 18.5 abaixo do peso
+- entre 18.5 25 peso normal
+- entre 25 e 30 acima do peso
+- entre 30 e 40 obeso
+- acima de 40 obesidade morbida.
