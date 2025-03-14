@@ -1,0 +1,7 @@
+1) Faça um algoritmo que dado as tres notas tiradas por um aluno em um semestre da faculdade calcula e imprima sua media e sua classificação conforme a tabela abaixo
+
+media = (nota1 + nota2 + nota3) /3;
+classificação:
+-media menor que 5, reprovado;
+-media entre 5 e 7, recuperação;
+-media acima de 7, aprovado;
