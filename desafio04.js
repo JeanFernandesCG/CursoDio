@@ -1,6 +1,6 @@
 const peso = 75;
 const altura = 1.75;
-const imc = peso / (altura * altura);
+const imc = peso / Math.pow(altura, 2); // é a mesma coisa que(altura * altura) porem usando uma biblioteca
 
 if (imc <= 18.5) {
   console.log(imc.toFixed(2));
