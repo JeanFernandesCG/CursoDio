@@ -42,3 +42,4 @@ main();
 
 desse modo é criado uma função invocada imediatamente
 exclui a necessidade do 'main();' e do nome "main" para execuçao do codigo*/
+//nota: usado em criação de site para isolar as funçoes dentro e fazendo executar uma vez apenas.
