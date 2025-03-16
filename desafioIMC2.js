@@ -28,3 +28,17 @@ function main() {
 }
 
 main();
+
+/*(function() {
+  const peso = 75;
+  const altura = 1.75;
+
+  const imc = IMC_cal(peso, altura);
+  console.log(imc.toFixed(2));
+  console.log(classificacao(imc));
+})
+
+();
+
+desse modo é criado uma função invocada imediatamente
+exclui a necessidade do 'main();' e do nome "main" para execuçao do codigo*/
