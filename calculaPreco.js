@@ -1,5 +1,5 @@
 function aplicaDesconto(valor, desconto) {
-  return valor - valor * (desconto / 100);
+  return valor - valor * (desconto / 100); //o prettier impedir de colocar separaçao (valor- (valor*(desconto/100))), porem ainda sim funciona normalmente.
 }
 function adicionaJuros(valor, juros) {
   return valor + valor * (juros / 100);
