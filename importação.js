@@ -1,4 +1,6 @@
-const entradas = [5.5];
+// const entradas = [5.5]; CalMedia
+
+const entradas = [1, 88, 22, 11, 13, 10];
 let i = 0;
 
 function gets() {
