@@ -1,0 +1,37 @@
+const { gets, print } = require("./importação");
+
+/*for (i = 0; i < 3; i++) {
+  const media = gets();
+
+  if (media < 5) {
+    print("REP");
+    print(media);
+  }
+  // TODO: Criar demais condições para a resolução deste desafio.
+  else if (media >= 5 && media <= 7) {
+    print("REC");
+    print(media);
+  } else {
+    print("APR");
+    print(media);
+  }
+}*/
+
+const N = gets();
+let maiorNumeroPar = 0;
+let menorNumeroImpar = 1;
+
+for (let i = 0; i < N; i++) {
+  const numero = parseInt(gets());
+
+  if (numero % 2 == 0) {
+    if (numero > maiorNumeroPar) {
+      maiorNumeroPar = numero;
+    }
+  }
+  // TODO: Criar a condição e regras para identificar também o "menorNumeroImpar".
+}
+
+// TODO: Imprima as saídas conforme o enunciado deste desafio.
+print("Maior número par: " + maiorNumeroPar);
+print("Menor número impar: " + menorNumeroImpar);

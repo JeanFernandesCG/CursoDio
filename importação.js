@@ -2,7 +2,9 @@
 
 //const entradas = [5, 1, 4, 3, 10, 18]; par ou impar
 
-const entradas = [2000, 250];
+// const entradas = [2000, 250]; salario
+
+const entradas = [5, 3, 4, 1, 10, 8];
 let i = 0;
 
 function gets() {
